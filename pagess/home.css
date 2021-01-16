@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+     cursor: pointer;  
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#about-us{
+    text-align: center;
+     font-size: 30px;
+     margin-bottom: 25px;
+    border-style: solid;
+    border-right:transparent ;
+    border-left:transparent ;
+    border-color: #ec971f;
+    border-width: medium;
+    
+}
+.about-uss{
+    text-align: center;
+     font-size: 30px;
+     margin-bottom: 70px;
+    flex-flow: row;
+    border-style: solid;
+    border-right:transparent ;
+    border-left:transparent ;
+    border-bottom:transparent ;
+    border-color: #ec971f;
+    border-width: medium;
+    
+    
+}
+.sud{
+    width: 300px;
+    height: 300px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
