@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* 
+  style the Header section 
+  */
+header {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+ z-index: 1;
+  top: 0;
+  border-style: solid;
+  border-width: thin;
+  padding: 0px 15px;
+  align-items: center;
+ 
+}
+nav {
+  width: 100%;
+}
+
+/* Style the links inside the header section */
+.items a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black
+}
+
+.logo {
+  width:450px;
+  height: 180px;
+  cursor: pointer;
+}
+/*  collecte the  items that have the same style */
+.item-menu {
+  height: 40px;
+  font-size: 13px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #d3d3d3;
+  border-top: none;
+  text-align: center;
+  font-weight: 400px;
+  display: block;
+}
+
+.items {
+  margin-left: 50px;
+  list-style: none;
+  display: flex;
+}
+#benefit-item {
+  width: 80.46px;
+}
+#blog-item {
+  width: 63.89px;
+}
+#work-item {
+  width: 125.13px;
+}
+#login-item {
+  width: 64px;
+}
+#resister-item {
+  width: 80.22px;
+}
+
+.landing-container {
+  position: relative;
+}
+.landing-img {
+  width: 100%;
+  height: 600px;
+  margin-top: 40px;
+  opacity: 0.5;
+}
+.menu-icon {
+  display: none;
+}
+.search-icon {
+  display: none;
+}
+
+/* style the content inside the pictures */
+.content {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%px, -50%);
+}
+.about-place {
+  font-size: 40px;
+  color: black;
+  font-weight: 400px;
+  font-weight: bold;
+}
+.about-place span {
+  color: white;
+  background-color: #ec971f;
+  font-size: 30px;
+  font-weight: 500px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+.paragraph {
+  margin: 15px 0px 0px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+/* style the footer section*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ec971f;
+  margin-top: 50px;
+}
+footer p {
+  color:black;
+  font-size: 19px;
+ text-align: center;
+font-weight: bold;
+}
+/* style the link inside footer section*/
+.copy-right a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #898989;
+}
+/* Style the search box inside the header section */
+#search {
+  padding: 6px;
+  height: 25px;
+  margin-right: 100px;
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+/* style the pictures with media query  */
+
+@media screen and (max-width: 920px) {
+  .logo {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 753px) {
+  .items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .search-icon {
+    display: block;
+  }
+  #search {
+    display: none;
+  }
+  .about-place {
+    margin-top: 50px;
+  }
+}
